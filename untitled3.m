@@ -1,0 +1,1 @@
+params = calc_params(Pxx,Fs,frec_band);
