@@ -6,9 +6,9 @@ clc
 
 % Carpeta donde se ha descargado fieldtrip
 % fieldtrip_path='/Users/carolinamigliorelli/Documents/MATLAB/Epilepsy-MEG/libs/fieldtrip';
-%fieldtrip_path='C:\Users\cmigliorelli\Documents\MATLAB\fieldtrip';
+fieldtrip_path='C:\Users\cmigliorelli\Documents\MATLAB\fieldtrip';
 %fieldtrip_path='D:\Programas\fieldtrip-20180213';
-fieldtrip_path='C:\Users\Caro\Documents\MATLAB\Epilepsy-MEG\libs\fieldtrip';
+%fieldtrip_path='C:\Users\Caro\Documents\MATLAB\Epilepsy-MEG\libs\fieldtrip';
 addpath(fieldtrip_path)
 addpath('Functions')
 
@@ -23,7 +23,7 @@ for pat=1:length(patient)
     % Donde están guardados los datos
     %data_path='/Volumes/KINGSTON/Epilepsia_HSJD/PAT_3/EEG';
     data_path=['Y:\Electrofisiologia' filesep patient{pat}];
-    data_path=['D:\BBDD\BIOART_signals\Epilepsia_HSJD\BBDD\trc_data' filesep patient{pat}];
+    %data_path=['D:\BBDD\BIOART_signals\Epilepsia_HSJD\BBDD\trc_data' filesep patient{pat}];
     %data_path='E:\Epilepsia_HSJD\PAT_3\EEG';
     % Nombre del fichero
     file_name=filenames{pat};
