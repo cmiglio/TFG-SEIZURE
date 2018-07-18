@@ -1,6 +1,6 @@
 clear all
 close all
-addpath('functions');
+addpath('Functions');
 patient={'PAT_7','PAT_7','PAT_9','PAT_9','PAT_12','PAT_12','PAT_13','PAT_13'};
 filenames={'EEG_1059','EEG_1050','EEG_1275','EEG_1220','EEG_1692','EEG_1681','EEG_1933','EEG_1923'};
 feature_names={'Power','\delta','\theta','\alpha','\beta','{\gamma}_{low}','{\gamma}_{high}','ripple_{1}','ripple_{2}','entropy','rms','mfrec'};
